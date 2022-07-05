@@ -768,11 +768,10 @@ padding: 60px 0;
    height: 60px;
     justify-content: center;
     align-items: center;
+    fill:#AFB1B8;
 }
 .clients-item{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 100px;
-    height:100px
 }
