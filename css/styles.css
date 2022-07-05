@@ -722,7 +722,10 @@ padding: 60px 0;
     :focus
     {color:var(--primary-text-color) ;}
 
-
+.footer-sociales{
+    display: flex;
+    flex-direction: column;
+}
 .location{
     color:#FFFFFF;
     font-style: normal;
@@ -758,3 +761,25 @@ padding: 60px 0;
     
 }
 
+.social-icon.instagram{
+    width: 100px;
+    height:100px;
+}
+.social-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+     height: 100px;
+}
+.clients-icon{
+   width: 44px;
+   height: 44px;
+}
+.clients-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height:100px
+}
