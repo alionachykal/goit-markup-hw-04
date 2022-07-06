@@ -723,9 +723,7 @@ padding: 60px 0;
     :focus
     {color:var(--primary-text-color) ;}
 
-.footer-sociales{
-    
-}
+
 .location{
     color:#FFFFFF;
     font-style: normal;
@@ -825,8 +823,8 @@ padding: 60px 0;
     height: 20px;
     fill: currentColor;
 }
-.social-icon:hover,
-.social-icon:focus{
+.socials-link:hover,
+.socials-link:focus{
     background-color: var(--acсent-color);
-    color: var(--primary-bcg-color);
-}
+    color: var(--primary-bcg-color);}
+
