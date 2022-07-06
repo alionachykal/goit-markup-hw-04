@@ -825,6 +825,13 @@ padding: 60px 0;
 .socials-item{
     display: flex;
     margin-left: 10px;
+
+}
+.socials-item:first-child{
+    margin-left: 0;
+}
+li.socials-item {
+    box-shadow: none;
 }
 
 .social-icon{
