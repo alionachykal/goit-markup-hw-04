@@ -193,19 +193,15 @@ margin-left: 0;
     .icon-mail, .icon-phone{
         margin-right: 10px;
     }
-    /* .icon-mail:hover,
+    .icon-mail:hover,
     .icon-mail:focus{
         fill:var(--accent-color);
     }
     .icon-phone:hover,
     .icon-phone:focus{
-        fill:var(--accent-color);
-    } */
-    .mail link:hover,
-    .mail link:focus{
-        fill: var(--accent-color);
-
-    }
+        fill:var(--accent-color);}
+ 
+    
 
     
 
@@ -840,11 +836,17 @@ padding: 60px 0;
     border-radius: 50%;
 }
 
+
 .socials-item:first-child{
     margin-left: 0;
 }
 li.socials-item {
     box-shadow: none;
+}
+.social-item .link:hover,
+.social-item .link:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-bcg-color);
 }
 
 .social-icon{
