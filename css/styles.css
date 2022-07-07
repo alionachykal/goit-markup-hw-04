@@ -187,27 +187,16 @@ margin-left: 0;
     .nav-item2:first-child{
         margin-left: 0;
     }
-    .icon-mail{
+    .icon-mail, .icon-phone{
         margin-right: 10px;
     }
-    
-    
-    .icon-mail2::before{
-        background-image: url(../images/icons.svg/envelope.svg);
-        height: 12px;
-         width: 16px;
-         cursor: pointer;
-
+    .icon-mail:hover,
+    .icon-mail:focus{
+        fill:var(--accent-color);
     }
-        .icon-mail2:hover,::before{
-            color: #2196F3;
-        }
-
-    .icon-phone::before{
-        background-image: url(../images/icons.svg/telephone.svg);
-         width: 10px;
-         height: 16px;
-   
+    .icon-phone:hover,
+    .icon-phone:focus{
+        fill:var(--accent-color);
     }
 
     
