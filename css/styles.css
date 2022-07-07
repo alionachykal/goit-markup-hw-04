@@ -846,7 +846,7 @@ li.socials-item {
 .social-item .link:hover,
 .social-item .link:focus {
     background-color: var(--accent-color);
-    color: var(--primary-bcg-color);
+    fill: var(--primary-bcg-color);
 }
 
 .social-icon{
