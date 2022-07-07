@@ -180,7 +180,7 @@ margin-left: 0;
 
     .nav-item2{
     margin-left: 50px;
-    fill: var(--main-text-grey);
+    fill:rgba(117, 117, 117, 1);
     align-items: center;
      
     }
