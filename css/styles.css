@@ -201,7 +201,11 @@ margin-left: 0;
     .icon-phone:focus{
         fill:var(--accent-color);
     } */
-    .mail link
+    .mail link:hover,
+    .mail link:focus{
+        fill: var(--accent-color);
+
+    }
 
     
 
@@ -835,11 +839,6 @@ padding: 60px 0;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-.socials-item:hover,
-.socials-item:focus{
-    color:var(--accent-color);
-}
-
 
 .socials-item:first-child{
     margin-left: 0;
@@ -852,5 +851,9 @@ li.socials-item {
     width: 20px;
     height: 20px;
     fill:rgba(175, 177, 184, 1);
+}
+.social-icon:hover,
+:focus{fill: var(--accent-color);
+
 }
 
