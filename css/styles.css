@@ -838,9 +838,8 @@ padding: 60px 0;
 }
 .socials-link:hover,
 .socials-link:focus{
-    color: var(--primary-bcg-accent-color);
-    background-color: var(--accent-color);
-    fill: var(--primary-bcg-color);
+    color:var(--accent-color);
+
 } 
 .socials-item{
     margin-left: 10px;
@@ -858,13 +857,10 @@ li.socials-item {
 .social-icon{
     width: 20px;
     height: 20px;
-    fill:var(--primary-bcg-accent-color);
+    fill:rgba(175, 177, 184, 1);
 }
 .social-icon:hover,
-:focus{fill: var(--accent-color);
-    fill:var(--primary-bcg-color);
-    
-
+:focus{ fill:var(--primary-bcg-color);
 
 }
 
