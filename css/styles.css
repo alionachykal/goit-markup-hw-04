@@ -842,7 +842,7 @@ padding: 60px 0;
     color: var(--primary-bcg-accent-color);
     background-color: var(--accent-color);
     fill: var(--primary-bcg-color);
-}
+} 
 .socials-item{
     margin-left: 10px;
     background: rgba(255, 255, 255, 0.1);
@@ -865,7 +865,6 @@ li.socials-item {
 }
 .social-icon:hover,
 :focus{fill: var(--accent-color);
-    fill: var(--primary-bcg-color);
     
 
 
