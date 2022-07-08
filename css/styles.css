@@ -792,11 +792,6 @@ padding: 60px 0;
 .clients-icon:focus{
     fill: var(--primary-bcg-accent-color)
 }
-.clients-item {
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
-}
 .clients-link{
     display: flex;
      justify-content: space-around;
@@ -874,8 +869,8 @@ li.socials-item {
     line-height: 30px;
     display: inline-block;
 }
-.social-icon:hover,
-:focus{ fill:var(--primary-bcg-color);
+.social-icon:hover
+/* :focus */{ fill:var(--primary-bcg-color); 
 
 }
 .footer-sociales .socials-item{
