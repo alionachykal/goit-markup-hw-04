@@ -837,12 +837,12 @@ padding: 60px 0;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.1);
 }
-/* .socials-link:hover,
+.socials-link:hover,
 .socials-link:focus{
-    color: var(--primary-bcg-accent-color);
+    fill: var(--primary-bcg-accent-color);
     background-color: var(--accent-color);
     fill: var(--primary-bcg-color);
-}  */
+} 
 .socials-item{
     margin-left: 10px;
     background: rgba(255, 255, 255, 0.1);
@@ -863,22 +863,10 @@ li.socials-item {
     height: 20px;
     fill:rgba(175, 177, 184, 1);
 }
-.footer.social-icon{
-    width: 20px;
-    height: 20px;
-    fill:var(--primary-bcg-color);
-
-}
 .social-icon:hover,
 :focus{fill: var(--accent-color);
     fill:var(--primary-bcg-color);
 
-
-}
-.footer.social-icon:hover,
-.footer.social-icon:focus{
-    fill:var(--accent-color);
-    fill: var(--primary-bcg-color);
 
 }
 
