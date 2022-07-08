@@ -839,7 +839,7 @@ padding: 60px 0;
 }
 .socials-link:hover,
 .socials-link:focus{
-    fill: var(--primary-bcg-accent-color);
+    color: var(--primary-bcg-accent-color);
     background-color: var(--accent-color);
     fill: var(--primary-bcg-color);
 } 
