@@ -298,6 +298,10 @@ margin-left: 0;
     color:#2196F3;
     
 }
+.mail-link{
+    display: flex;
+    align-items: center;
+}
 .mail2{
     color: #757575;
     text-decoration: none;
@@ -827,13 +831,15 @@ padding: 60px 0;
     height: 44px;
     width: 44px;
     background-position: center;
+
     border-radius: 50%;
     color:var(--primary-bcg-color);
     cursor: pointer;
     background: rgba(255, 255, 255, 0.1);
 }
-.socials-link:hover{
-    /* color: var(--primary-bcg-accent-color); */
+.socials-link:hover,
+.socials-link:focus{
+    color: var(--primary-bcg-accent-color);
     background-color: var(--accent-color);
     fill: var(--primary-bcg-color);
 } 
@@ -859,6 +865,8 @@ li.socials-item {
 }
 .social-icon:hover,
 :focus{fill: var(--accent-color);
+    fill:var(--primary-bcg-color);
+
 
 }
 
