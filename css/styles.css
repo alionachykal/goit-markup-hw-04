@@ -429,29 +429,31 @@ margin-left: 0;
     width: 270px;
 
 }
-.feature-item::before{
+.feature-item {
     display: block;
-    content: '';
+    /* content: '';
     height: 120px;
     background-repeat: no-repeat;
     background-color:#F5F4FA; 
     background-position: center;
+    margin-bottom: 30px; */
+}
+.first-icons {
+    display: flex;
+        width: 270px;
+        height: 120px;
+        background: rgba(245, 244, 250, 1);
+        justify-content: center;
+        align-items: center;
+}
+.features-icons {
     margin-bottom: 30px;
 }
-.icon-antenna::before{
-    background-image: url(../images/antenna.png);
-}
-.icon-clock::before{
-    background-image: url(../images/clock.png);
+.icon-features {
+    Width: 65px; 
+    Height: 70px;
 
 }
-.icon-diagram::before{
-    background-image: url(../images/diagram.png);
-}
-.icon-astronaut::before{
-    background-image: url(../images/astronaut.png);
-}
-
 /* work*/
 .section{
     padding-top: 94px;
