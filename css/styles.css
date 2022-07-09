@@ -190,17 +190,18 @@ margin-left: 0;
     
 
     
-    /* .icon-mail, .icon-phone{
+     .icon-mail, .icon-phone{
         margin-right: 10px;
     }
-    .icon-mail:hover,
+     
+    /* .icon-mail:hover,
     .icon-mail:focus{
         fill:var(--accent-color);
     }
-    .icon-phone:hover,
+    /* .icon-phone:hover,
     .icon-phone:focus{
-        fill:var(--accent-color);} */
- 
+        fill:var(--accent-color);} 
+  */ 
     
 
     
@@ -294,7 +295,7 @@ margin-left: 0;
      padding-bottom: 32px;}
    
 
- a.mail.link:hover,:focus{ 
+.mail.link:hover,:focus{ 
     color:#2196F3;
     
 }
