@@ -308,7 +308,7 @@ margin-left: 0;
 /* .mail.link:hover .icon-mail {
     fill: var(--accent-color);} */
 
- a.mail-link{
+ .mail.link{
     display: flex;
     align-items: center;
 }
