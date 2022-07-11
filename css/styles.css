@@ -799,12 +799,12 @@ padding: 60px 0;
 .clients-icon{
    width: 106px;
    height: 60px;
-   fill:#AFB1B8;
+   fill:currentColor;
 }
- .clients-icon:hover,
+ /* .clients-icon:hover,
 .clients-icon:focus{
     fill: var(--primary-bcg-accent-color)
-} 
+}  */
 .clients-link{
     display: flex;
      justify-content: space-around;
@@ -856,10 +856,11 @@ padding: 60px 0;
 }
 .socials-link:hover{
     background-color: var(--accent-color);
-} 
-.socials-link:hover .socials-link {
     fill: var(--primary-bcg-color);
-}
+} 
+/* .socials-link:hover .socials-link {
+    fill: var(--primary-bcg-color);
+} */
 .socials-item{
     margin-left: 10px;
 }
