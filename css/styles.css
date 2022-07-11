@@ -862,11 +862,12 @@ padding: 60px 0;
     cursor: pointer;
 }
  .socials-link:hover,:focus {
-    fill: var(--primary-bcg-color);
+    color: var(--primary-bcg-color);
     background-color: var(--accent-color);
 } 
  .socials-link:hover .social-icon{
     fill:var(--primary-bcg-color);
+    
 } 
 
 .socials-item{
