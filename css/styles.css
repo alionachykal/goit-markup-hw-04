@@ -849,7 +849,7 @@ padding: 60px 0;
     margin-bottom: 30px;
 }
 
- .socials-item .socials-link{
+ .socials-link{
     display:flex;
     align-items: center;
     height: 44px;
@@ -861,10 +861,13 @@ padding: 60px 0;
     color: #AFB1B8;
     cursor: pointer;
 }
-.socials-item .socials-link:hover,:focus{
+ .socials-link:hover {
     background-color: var(--accent-color);
     fill:var(--primary-bcg-color);
 } 
+.socials-link:hover .social-icon{
+    fill: var(--accent-color);
+}
 
 .socials-item{
     margin-left: 10px;
