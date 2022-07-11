@@ -877,7 +877,7 @@ li.socials-item {
 .social-icon{
     width: 20px;
     height: 20px;
-    fill:rgba(175, 177, 184, 1);
+    fill:currentColor;
     justify-content: center;
      align-items: center;
     line-height: 30px;
