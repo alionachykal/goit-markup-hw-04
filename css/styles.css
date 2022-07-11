@@ -863,7 +863,7 @@ padding: 60px 0;
 }
  .socials-link:hover {
     background-color: var(--accent-color);
-    color:var(--primary-bcg-color);
+    fill:var(--primary-bcg-color);
 } 
 /* .socials-link:hover .social-icon{
     fill: var(--accent-color);
