@@ -861,7 +861,7 @@ padding: 60px 0;
     color: #AFB1B8;
     cursor: pointer;
 }
- .socials-link:hover {
+ .socials-link:hover,:focus {
     fill: var(--primary-bcg-color);
     background-color: var(--accent-color);
 } 
