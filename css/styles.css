@@ -193,14 +193,18 @@ margin-left: 0;
      .icon-mail, .icon-phone{
         margin-right: 10px;
     }
+    .icon-mail{
+        fill: currentColor;
+    }
+
      
-     .icon-mail:hover,
+     /* .icon-mail:hover,
     .icon-mail:focus{
         fill:var(--accent-color);
     }
      .icon-phone:hover,
     .icon-phone:focus{
-        fill:var(--accent-color);} 
+        fill:var(--accent-color);}  */
     
 
     
@@ -282,7 +286,7 @@ margin-left: 0;
 
 
 .contacts:hover,:focus{
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 .mail{
     color:#757575; 
@@ -294,12 +298,12 @@ margin-left: 0;
      padding-bottom: 32px;}
    
 
-.mail.link:hover{ 
-    fill: var(--accent-color);
+  .mail.link:hover,:focus{ 
+    color: var(--accent-color);
   
 }
-.mail.link:hover .icon-mail {
-    fill: var(--accent-color);}
+/* .mail.link:hover .icon-mail {
+    fill: var(--accent-color);} */
 
  a.mail-link{
     display: flex;
@@ -692,7 +696,7 @@ ul{
     }
     .button-list.active:hover,
     .button-list.active:focus {
-color: var(--title-text-color)
+    color: var(--title-text-color);
     }
    
     
@@ -727,7 +731,7 @@ padding: 60px 0;
     
 }
 .footer-mail:hover,:focus{
-    color:var(--primary-text-color);
+    color:var(--accent-color);
 }
 
 
@@ -742,7 +746,7 @@ padding: 60px 0;
     }
     .footer-number:hover,
     :focus
-    {color:var(--primary-text-color) ;}
+    {color:var(--accent-color) ;}
 
 
 .location{
@@ -783,11 +787,6 @@ padding: 60px 0;
 .offers-link:focus{box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* .offers-item:hover,
-.offers-item:focus{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-                1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 .card-border{
     border: 1px solid #eeee;
     padding: 20px 24px;
