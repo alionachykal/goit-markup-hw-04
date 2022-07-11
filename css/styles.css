@@ -335,11 +335,12 @@ margin-left: 0;
     display: flex;
     align-items: center;
     }
-    a.number:hover,:focus{
-        fill: var(--primary-bcg-accent-color);
-
-
-    }
+        a.number:hover .icon-phone {
+            fill: var(--accent-color);
+        }
+    
+        a.number:hover {
+            color: var(--accent-color);}
 
 
 
@@ -815,11 +816,16 @@ padding: 60px 0;
      width: 170px;
     height: 92px;
 }
-.clients-link:hover,
-.clients-link:focus{
-    border-color: var(--primary-bcg-accent-color);
+
+.clients-link:hover .clients-icon{
     fill: var(--primary-bcg-accent-color);
 }
+
+.clients-link:hover{
+    fill:var(--primary-bcg-accent-color);
+    border-color: var(--primary-bcg-accent-color);
+}
+
 .footer-container {
     width: 1200px;
     padding-left: 15px;
