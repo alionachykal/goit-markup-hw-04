@@ -294,10 +294,13 @@ margin-left: 0;
      padding-bottom: 32px;}
    
 
-.mail.link:hover .icon-mail{ 
+.mail.link:hover{ 
     fill: var(--accent-color);
-    
+  
 }
+.mail.link:hover .icon-mail {
+    fill: var(--accent-color);}
+
  a.mail-link{
     display: flex;
     align-items: center;
@@ -852,11 +855,12 @@ padding: 60px 0;
     color:var(--primary-bcg-color);
     cursor: pointer;
 }
-.socials-link:hover,
-.socials-link:focus{
-    color: var(--primary-bcg-color);
+.socials-link:hover{
     background-color: var(--accent-color);
 } 
+.socials-link:hover .socials-link {
+    fill: var(--primary-bcg-color);
+}
 .socials-item{
     margin-left: 10px;
 }
