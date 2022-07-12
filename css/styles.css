@@ -200,15 +200,6 @@ margin-left: 0;
         fill: currentColor;
     }
 
-     
-     /* .icon-mail:hover,
-    .icon-mail:focus{
-        fill:var(--accent-color);
-    }
-     .icon-phone:hover,
-    .icon-phone:focus{
-        fill:var(--accent-color);}  */
-    
 
     
 
@@ -233,9 +224,10 @@ margin-left: 0;
     padding-bottom: 32px;
 
 }
-/* .link:hover,:focus {
-    color:var(--title-text-color);
-     */
+ /* .link:hover,
+ .link:focus {
+    color:var(--title-text-color);}  */
+    
 
 .link2{
     color:black;
@@ -246,8 +238,9 @@ margin-left: 0;
      padding-top: 32px;
      padding-bottom: 32px;
 }
-.link2:hover,:focus{
-    color: var(--accent-color)
+.link2:hover,
+.link2:focus{
+    color: var(--accent-color);
 
 }
 .resume {
@@ -260,7 +253,8 @@ margin-left: 0;
     padding-top: 32px;
     padding-bottom: 32px;}
   
-.resume:hover,:focus{
+.resume:hover,
+.resume:focus{
     color:var(--accent-color);
 }
 .resume2{
@@ -274,7 +268,8 @@ margin-left: 0;
 
 
 }
-.resume2:hover,:focus{
+.resume2:hover,
+.resume2:focus{
     color:var(--title-text-color);
 }
 .contacts{
@@ -288,7 +283,8 @@ margin-left: 0;
     }
 
 
-.contacts:hover,:focus{
+.contacts:hover,
+.contacts:focus{
     color:var(--accent-color);
 }
 .mail{
@@ -301,7 +297,8 @@ margin-left: 0;
      padding-bottom: 32px;}
    
 
-  .mail.link:hover,:focus{ 
+  .mail.link:hover,
+  .mail.link:focus{ 
     color: var(--accent-color);
   
 }
@@ -339,7 +336,8 @@ margin-left: 0;
             fill: var(--accent-color);
         }
     
-        a.number:hover {
+        a.number:hover,
+        a.number:focus {
             color: var(--accent-color);}
 
 
@@ -355,10 +353,10 @@ margin-left: 0;
 .section.hero {
 
     background-color: #2F303A;
-    color: var (--primary-text-color);
-    font-style: normal;
     text-align: center;
     padding: 200px 0;
+    max-width: 1600px;
+    margin: 0 auto;
     background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../image/Img-hero.jpg),
      url(../images/overlay.jpg);
@@ -629,7 +627,8 @@ column-gap: 30px;
     
    
 }
-.button-primary:hover,:focus { 
+.button-primary:hover,
+.button-primary:focus { 
     color:var(--title-text-color);
 }
 ul{
@@ -660,8 +659,12 @@ ul{
         cursor: pointer;       
     
 }
-.button-list:hover,:focus{
+.button-list:hover,
+.button-list:focus{
+    background-color: var(--primary-bcg-accent-color);
     color:var(--accent-color);
+    color: var(--title-text-color);
+    color: var(--primary-bcg-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
             0px 2px 2px rgba(0, 0, 0, 0.12);
 
@@ -673,11 +676,11 @@ ul{
     column-gap: 30px;
 }
 
-.button-list:hover{
+/* .button-list:hover{
     background-color:var(--primary-bcg-accent-color);
     color: var(--title-text-color);
     color: var(--primary-bcg-color);
-}
+} */
 .button-list.active{
     background: var(--accent-color);
     text-align: center;
@@ -690,15 +693,15 @@ ul{
     border-radius: 4px;
     padding: 6px 22px;
     cursor: pointer;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-     0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 
 
     }
     .button-list.active:hover,
     .button-list.active:focus {
-    color: var(--title-text-color);
+    /* color: var(--title-text-color); */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
     }
    
     
@@ -732,7 +735,8 @@ padding: 60px 0;
     text-decoration: none;
     
 }
-.footer-mail:hover,:focus{
+.footer-mail:hover,
+.footer-mail:focus{
     color:var(--accent-color);
 }
 
@@ -747,7 +751,7 @@ padding: 60px 0;
    
     }
     .footer-number:hover,
-    :focus
+     .footer-number:focus
     {color:var(--accent-color) ;}
 
 
@@ -820,7 +824,10 @@ padding: 60px 0;
 .clients-link:hover .clients-icon{
     fill: var(--primary-bcg-accent-color);
 }
+.clients-link:focus .clients-icon{
+    fill: var(--primary-bcg-accent-color);
 
+}
 .clients-link:hover{
     fill:var(--primary-bcg-accent-color);
     border-color: var(--primary-bcg-accent-color);
@@ -861,9 +868,10 @@ padding: 60px 0;
     color: #AFB1B8;
     cursor: pointer;
 }
- .socials-link:hover,:focus {
+  .socials-link:hover,
+  .socials-link:focus {
     color: var(--primary-bcg-color);
-    background-color: var(--accent-color);
+     background-color: var(--accent-color); 
 } 
  .socials-link:hover .social-icon{
     fill:var(--primary-bcg-color);
