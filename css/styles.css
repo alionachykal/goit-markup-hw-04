@@ -824,6 +824,9 @@ padding: 60px 0;
 .clients-link:hover .clients-icon{
     fill: var(--primary-bcg-accent-color);
 }
+.clients-link:focus .clients-icon{
+    fill: var(--primary-bcg-accent-color);
+}
 
 .clients-link:hover,
 .clients-link:focus{
